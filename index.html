@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+<link rel="stylesheet" 
+href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+<script src="https://kit.fontawesome.com/1e352fd8e7.js" crossorigin="anonymous"></script>
+
+<link rel="stylesheet"
+href="css/stylz.css" />
+
+<link rel="icon" 
+      type="image/png" 
+      href="icon.png" />
+
+    <title>PokeSearch</title>
+
+</head>
+
+<body>
+  <div id="titulo">
+    <h1 ><img src="PokeSearch.png" width="50%"></h1>
+  </div>
+    
+
+    
+
+      <div id="pokedex">
+
+        <div id="left">
+          <div id="logo"></div>
+          <div id="bg_curve1_left"></div>
+          <div id="bg_curve2_left"></div>
+          <div id="curve1_left">
+            <div id="buttonGlass">
+              <div id="reflect"> </div>
+            </div>
+            <div id="miniButtonGlass1"></div>
+            <div id="miniButtonGlass2"></div>
+            <div id="miniButtonGlass3"></div>
+          </div>
+          <div id="curve2_left">
+            <div id="junction">
+              <div id="junction1"></div>
+              <div id="junction2"></div>
+            </div>
+          </div>
+          <div id="screen">
+            <div id="topPicture">
+              <div id="buttontopPicture1"></div>
+              <div id="buttontopPicture2"></div>
+            </div>
+            <div id="picture">
+              <img id="foto" src="" height="170" />
+            </div>
+            <div id="buttonbottomPicture"></div>
+            <div id="speakers">
+              <div class="sp"></div>
+              <div class="sp"></div>
+              <div class="sp"></div>
+              <div class="sp"></div>
+            </div>
+          </div>
+          <div id="bigbluebutton"></div>
+          <div id="barbutton1"></div>
+          <div id="barbutton2"></div>
+          <div id="cross">
+            <div id="leftcross">
+              <div id="leftT"></div>
+            </div>
+            <div id="topcross">
+              <div id="upT"></div>
+            </div>
+            <div id="rightcross">
+              <div id="rightT"></div>
+            </div>
+            <div id="midcross">
+              <div id="midCircle"></div>
+            </div>
+            <div id="botcross">
+              <div id="downT"></div>
+            </div>
+          </div>
+        </div>
+        <div id="right">
+          <div id="stats">
+
+
+
+            <form id="formulario">
+                <div class="form-group">
+                  <label id="tittle" for="exampleInputEmail1">Insira o Nome ou ID do Pokemon!</label>
+                  <input type="search" class="form-control" id="search" name="search" placeholder="Exemplo: Pikachu">
+
+                  <div id="button">
+                    <button type="button" onclick="getContent()" class="btn btn-outline-dark"><i class="fas fa-search"></i></button>
+                  </div>
+                </div>
+                
+                
+            </form>
+
+            <div id="pokemon">
+              <p id="id">a</p>
+              <p id="name">a</p>
+              <p id="type">a</p>
+            </div>
+
+            <div id="error">
+              <p>Não existe Pokemon com esse Nome ou ID! Favor Repita!</p>
+            </div>
+
+
+          </div>
+          <div id="blueButtons1">
+            <div class="blueButton"></div>
+            <div class="blueButton"></div>
+            <div class="blueButton"></div>
+            <div class="blueButton"></div>
+            <div class="blueButton"></div>
+          </div>
+          <div id="blueButtons2">
+            <div class="blueButton"></div>
+            <div class="blueButton"></div>
+            <div class="blueButton"></div>
+            <div class="blueButton"></div>
+            <div class="blueButton"></div>
+          </div>
+          <div id="miniButtonGlass4"></div>
+          <div id="miniButtonGlass5"></div>
+          <div id="barbutton3"></div>
+          <div id="barbutton4"></div>
+          <div id="yellowBox1"></div>
+          <div id="yellowBox2"></div>
+          <div id="bg_curve1_right"></div>
+          <div id="bg_curve2_right"></div>
+          <div id="curve1_right"></div>
+          <div id="curve2_right"></div>
+        </div>
+      </div>
+      <div id="reload">
+        <button onClick="window.location.reload();" type="button" class="btn btn-success">Pesquisar Novamente</button>
+      </div>
+     
+    <script src="app.js"></script>
+
+</body>
+</html>
