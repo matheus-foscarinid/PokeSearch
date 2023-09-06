@@ -1,4 +1,4 @@
-# PokeSearch: Um Projeto Inicial de Aprendizado 🚀
+# PokeSearch 🚀
 
 PokeSearch é um site simples que desenvolvi quando estava aprendendo a programar.
 Construído com HTML, CSS e JavaScript, ele utiliza a Poke API para buscar dados sobre Pokémon.
